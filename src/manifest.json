@@ -1,0 +1,38 @@
+{
+   "content_scripts": [ {
+      "css": [ "css/vector_icon.css" ],
+      "js": [ "js/vector_icon.js", "js/cs.js" ],
+      "matches": [ "*://cs.chromium.org/*", "*://www.chromium.org/*", "*://source.chromium.org/chromium/*", "*://chromium.googlesource.com/chromium/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/vector_icon.css" ],
+      "js": [ "js/vector_icon.js", "js/gitiles.js" ],
+      "matches": [ "*://cs.chromium.org/*", "*://www.chromium.org/*", "*://source.chromium.org/chromium/*", "*://chromium.googlesource.com/chromium/*" ],
+      "run_at": "document_end"
+   }, {
+      "css": [ "css/vector_icon.css" ],
+      "js": [ "js/vector_icon.js", "js/file.js" ],
+      "matches": [ "file://*icon" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Draws vector .icon files in the Chromium repository.",
+   "host_permissions": [ "*://cs.chromium.org/*", "*://www.chromium.org/*", "*://source.chromium.org/chromium/*", "*://chromium.googlesource.com/chromium/*" ],
+   "icons": {
+      "128": "imgs/icon_128.png",
+      "16": "imgs/icon_16.png",
+      "24": "imgs/icon_24.png",
+      "256": "imgs/icon_256.png",
+      "32": "imgs/icon_32.png",
+      "48": "imgs/icon_48.png",
+      "64": "imgs/icon_64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmw8GQd9A8TxyvnjkKy2LeaSqHrQW0IGQK43GOJMeE0uDMNB1UsKHD+q2BZydClxuqIF9np+BhfdiqY9yaq2zV0N99yOUP7sJ5hvkLKJmSmwDlA023Qhy6v/x+aJlNm2cqKhZCzU6nAxFEh5pxw4p98507dWuaiRNIaO+GiONEvQH5JLGG2GpCI5VmxsFvS16RnbwMDd6bhwbZvsflw22y6RWmOI0p0mPIDlzrwxlpjtxsX76/ENszU+L/pew5ExXg5GC23WNRT76TDS75AWvR0tY3qtzmS9PM64rd77WWYtj7u85E4uj9QVBRPmgpQeJyarwYTyccTmnKttGSr18TQIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "Chromium Vector Icon Painter",
+   "offline_enabled": true,
+   "permissions": [ "scripting" ],
+   "short_name": "Vectorizor",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.1"
+}

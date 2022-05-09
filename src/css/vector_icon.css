@@ -1,0 +1,28 @@
+/* See LICENSE */
+
+#preview-container {
+  border: 1px solid grey;
+  border-top: 30px solid grey;
+  padding: 20px;
+  width: auto;
+  display: flex;
+  align-self: center;
+  text-align: center;
+  min-width: 200px;
+  overflow: hidden;
+}
+
+#preview-scaled > svg > * {
+  transform: scale(4);
+}
+
+#preview-original > svg,
+#preview-scaled > svg,
+#preview-original > img,
+#preview-scaled > img {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#preview-original {
+  padding-right: 20px;
+}
