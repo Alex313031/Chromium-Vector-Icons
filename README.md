@@ -9,4 +9,4 @@ DESCRIPTION: A Chromium Extension that can show what an .icon file will look lik
 LOGO: Originally from an .svg file from here > https://source.chromium.org/chromium/chromium/src/+/main:ui/webui/resources/images/chrome_logo_dark.svg
 	- Modified by me in GIMP on Ubuntu 22.04 Codename "Jammy Jellyfish".
 
-Forked from > https://github.com/sadrulhc/vector-icons
+&ndash; Forked from > https://github.com/sadrulhc/vector-icons
