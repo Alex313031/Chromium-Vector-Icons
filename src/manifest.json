@@ -20,9 +20,11 @@
    "icons": {
       "128": "imgs/icon_128.png",
       "16": "imgs/icon_16.png",
+      "19": "imgs/icon_19.png",
       "24": "imgs/icon_24.png",
       "256": "imgs/icon_256.png",
       "32": "imgs/icon_32.png",
+      "38": "imgs/icon_38.png",
       "48": "imgs/icon_48.png",
       "64": "imgs/icon_64.png"
    },
@@ -31,8 +33,9 @@
    "name": "Chromium Vector Icon Painter",
    "short_name": "Chromium Vectorizor",
    "author": "Alex313031",
+   "homepage_url": "https://github.com/Alex313031/Chromium-Vector-Icons",
    "offline_enabled": true,
    "permissions": [ "scripting" ],
-   "version": "0.2.3",
-   "version_name": "0.2.3"
+   "version": "0.2.4",
+   "version_name": "0.2.4"
 }
