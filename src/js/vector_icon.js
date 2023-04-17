@@ -205,6 +205,9 @@ class VectorIcon {
       'CUBIC_TO': 'C',
       'R_CUBIC_TO': 'c',
       'CUBIC_TO_SHORTHAND': 'S',
+      'QUADRATIC_TO': 'Q',
+      'R_QUADRATIC_TO': 'q',
+      'QUADRATIC_TO_SHORTHAND': 'T',
       'CLOSE': 'Z',
     };
     if (cmd[0] in drawCommands) {
