@@ -15,7 +15,7 @@
       "matches": [ "file://*icon" ],
       "run_at": "document_end"
    } ],
-   "description": "Draws vector .icon files in the Chromium repository.",
+   "description": "Draws vector .icon files in the Chromium repository as SVG images.",
    "host_permissions": [ "*://cs.chromium.org/*", "*://www.chromium.org/*", "*://source.chromium.org/chromium/*", "*://chromium.googlesource.com/chromium/*", "file://*icon", "https://*/*", "http://*/*", "ftp://*/*" ],
    "icons": {
       "128": "imgs/icon_128.png",
@@ -35,7 +35,6 @@
    "author": "Alex313031",
    "homepage_url": "https://github.com/Alex313031/Chromium-Vector-Icons",
    "offline_enabled": true,
-   "permissions": [ "scripting" ],
-   "version": "0.2.4",
-   "version_name": "0.2.4"
+   "version": "0.2.5",
+   "version_name": "0.2.5"
 }
